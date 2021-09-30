@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+
+body{
+    background-color: rgb(236, 227, 220);
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+    padding: 12px;
+    margin: 16px;
+    color: black;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding: 14px;
+    margin: 24px;
+    margin-bottom: 101px;
+}
+
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgb(82, 84, 97);
+    padding: 23px 14px;
+    position: sticky;
+
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+     list-style: none;
+     margin-left: 23px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 41px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: tomato;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+    height: 350px;
+    background-color: rgb(218, 137, 137);
+    background: center / cover no-repeat url("/static/dancebg.jpg");
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem ;
+}
+
+#introSection div {
+    padding-bottom: 12px;
+}
+
+#introSection div.small {
+    font-size: 25px;
+}
+
+#missionSection {
+    height: 350px;
+    background-color: rgba(232, 245, 231, 0.753);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#missionSection h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px ;
+    font-weight: bold;
+    font-weight: bold;
+
+}
+
+#missionSection h3.small{
+    font-size: 18px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sponsersSection{
+    height: 325px;
+    background-color:rgb(206, 215, 253);
+
+}
+
+#sponsersSection h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px ;
+    font-weight: bold;
+    color: rgb(19, 18, 18);
+
+}
+
+#footer {
+    height: 65px;
+    background-color: rgb(20, 18, 20);
+    color: white;
+    font-size: 15px;
+    margin: auro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 239px;
+    width: 29%;
+    margin: 25px 8px;
+    padding: 0px;
+    background-color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -25px 23px;
+    margin-right: 59px;
+}
+
+#logo:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+    height: 150px;
+    padding-left: 8px;
+    
+}
+
+.card-content{
+    font-size: 15px;
+    padding: 12px;
+    font-family: 'Open Sans';
+}
+
+.card h3{
+    margin: 14px 0px;
+}
+
+.sponser{
+    height: 237px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sponser img{
+    filter: invert(1);
+    height: 225px;
+    width: 209px;
+    padding: 26px;
+    margin: 0px -15px;
+}
+
+
+
+
+
+
+
+
+
+
